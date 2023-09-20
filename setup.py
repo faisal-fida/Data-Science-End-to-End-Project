@@ -1,8 +1,9 @@
 from setuptools import setup, find_packages
+from typing import List
 
 HYPHEN_E_DOT = '-e .'
 
-def find_libraries(requirement_file):
+def find_libraries(requirement_file: str) -> List[str]:
     
     requirements = []
 
